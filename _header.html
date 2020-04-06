@@ -1,0 +1,152 @@
+<!-- Header Start -->
+<div class="header-area">
+    <div class="main-header ">
+        <div class="header-mid d-none d-md-block">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <!-- Logo -->
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9">
+                        <div class="user-menu">
+                            <div class="user-menu-login">
+                                <button type="button" class="btn btn-outline-warning btn-login">
+                                    <i class="far fa-user"></i> Войти
+                                </button>
+                            </div>
+                            <div class="user-menu-logged">
+                                <button type="button" class="btn btn-outline-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i> Дмитрий
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="profile.html">Мой профиль</a>
+                                    <a class="dropdown-item" href="settings.html">Настройки</a>
+                                    <a class="dropdown-item" href="logout.html">Выйти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom header-sticky">
+            <div class="container">
+                <div class="align-items-center">
+                    <div class="header-flex">
+                        <!-- sticky -->
+                        <div class="sticky-logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-md-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li class="active">
+                                        <a href="index.html">Новости</a></li>
+                                    <li><a href="category.html">Политика</a></li>
+                                    <li><a href="category.html">Экономика</a></li>
+                                    <li><a href="category.html">Энергетика</a></li>
+                                    <li><a href="category.html">Общество</a></li>
+                                    <li><a href="category.html">Спорт</a></li>
+                                    <li class="with-children"><a href="#">Меню <i class="fa fa-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="elements.html">Главное</a></li>
+                                            <li><a href="">Избранное</a></li>
+                                            <li><a href="profile.html">Мои статьи и отчеты</a></li>
+                                            <li><a href="create.html">Создать статью/отчет</a></li>
+                                            <li><a href="members.html">Пользователи</a></li>
+                                            <li><a href="members.html">Корпоративный раздел</a></li>
+                                            <li><a href="">Пресс-служба #1</a></li>
+                                            <li><a href="">Пресс-служба #2</a></li>
+                                            <li><a href="">Пресс-служба #3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Menu -->
+
+                    <div class="mobile_menu d-block d-md-none">
+                        <div class="user-menu">
+                            <!-- <div class="user-menu-login">
+                                <button type="button" class="btn btn-outline-warning btn-login">
+                                    <i class="far fa-user"></i> Войти
+                                </button>
+                            </div> -->
+                            <div class="user-menu-logged">
+                                <button type="button" class="btn btn-outline-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i> Дмитрий
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="profile.html">Мой профиль</a>
+                                    <a class="dropdown-item" href="settings.html">Настройки</a>
+                                    <a class="dropdown-item" href="logout.html">Выйти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xl-9 col-lg-9 col-md-12 header-flex">
+                <!-- TradingView Line -->
+                <div class="trending-tittle">
+                    <div class="ticker">
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                                {
+                                    "symbols": [{
+                                        "proName": "OANDA:SPX500USD",
+                                        "title": "S&P 500"
+                                    }, {
+                                        "proName": "OANDA:NAS100USD",
+                                        "title": "NASDAQ 100"
+                                    }, {
+                                        "proName": "FX_IDC:EURUSD",
+                                        "title": "EUR/USD"
+                                    }, {
+                                        "proName": "BITSTAMP:BTCUSD",
+                                        "title": "BTC/USD"
+                                    }, {
+                                        "proName": "BITSTAMP:ETHUSD",
+                                        "title": "ETH/USD"
+                                    }],
+                                        "colorTheme": "light",
+                                            "isTransparent": true,
+                                                "displayMode": "adaptive",
+                                                    "locale": "ru"
+                                }
+                            </script>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- End of TradingView Line -->
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12">
+                <div class="header-right-btn f-right d-none d-lg-block">
+                    <i class="fas fa-search special-tag"></i>
+                    <div class="search-box">
+                        <form action="#">
+                            <input type="text" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->

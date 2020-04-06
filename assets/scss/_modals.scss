@@ -1,0 +1,29 @@
+// add memeber
+
+.modal-add-member {
+    .user-avatar {
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 30px;
+    
+            @media(max-width: 600px) {
+                margin-right: 15px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+    .table {
+        tr td {
+            &:first-child {
+                max-width: 120px;
+            }
+            .name{
+                width: 100%;
+            }
+
+        }
+    }
+}

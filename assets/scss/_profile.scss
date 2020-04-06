@@ -1,0 +1,77 @@
+.profile {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    .profile-title {
+        border-bottom: 1px solid $border-color;
+        padding: 6px 0;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        color: $theme-color3;
+    }
+    .profile-info {
+        margin-bottom: 25px;
+        img {
+            max-width: 200px;
+            height: auto;
+            max-height: 150px;
+        }
+        .profile-details {
+            margin: 15px 0;
+        }
+    }
+
+    .profile-article-list {
+        a {
+            margin-top: 15px;
+            line-height: 3em;
+            text-decoration: underline;
+        }
+    }
+
+    .profile-article {
+        .profile-article-title {
+            font-size: 1.5em;
+        }
+        .profile-article-created {
+            font-size: 0.8em;
+        }
+        .profile-article-activity {
+            font-size: 0.8em;
+            color: $theme-color3;
+        }
+    }
+}
+
+.user-list {
+    .user-avatar {
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 30px;
+    
+            @media(max-width: 600px) {
+                margin-right: 15px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+    .table {
+        tr td {
+            &:first-child {
+                max-width: 120px;
+            }
+            .name{
+                width: 100%;
+            }
+    
+        }
+    }
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
